@@ -7,3 +7,4 @@ const PatientDetail = () => {
 }
 
 export default PatientDetail
+// chore: note 2021-02-02T15:42:01
