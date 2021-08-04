@@ -23,3 +23,4 @@ const store = configureStore({
 });
 
 export default store;
+// chore: note 2021-08-04T06:27:38
