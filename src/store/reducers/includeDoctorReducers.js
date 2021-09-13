@@ -64,4 +64,3 @@ const includeDoctorSlice = createSlice({
 export const includeDoctorActions = includeDoctorSlice.actions;
 
 export default includeDoctorSlice.reducer;
-// chore: note 2021-07-12T16:04:57
