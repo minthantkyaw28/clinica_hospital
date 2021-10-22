@@ -196,4 +196,3 @@ const AddDoctor = () => {
 
 
 export default AddDoctor;
-// chore: note 2021-07-02T16:19:26
