@@ -130,4 +130,3 @@ const DropDownMenu = () => {
 };
 
 export default DropDownMenu;
-// chore: note 2021-12-08T19:33:18
