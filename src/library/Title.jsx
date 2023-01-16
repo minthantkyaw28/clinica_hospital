@@ -15,4 +15,3 @@ Title.propTypes = {
 };
 
 export default Title;
-// chore: note 2022-01-26T05:18:07
