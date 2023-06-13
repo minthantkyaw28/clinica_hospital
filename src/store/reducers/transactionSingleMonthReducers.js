@@ -72,4 +72,3 @@ export const transactionSingleMonthActions =
   transactionSingleMonthSlice.actions;
 
 export default transactionSingleMonthSlice.reducer;
-// chore: note 2023-02-03T08:11:32
