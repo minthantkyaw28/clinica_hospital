@@ -65,4 +65,3 @@ const registerDoctorSlice = createSlice({
 export const registerDoctorActions = registerDoctorSlice.actions;
 
 export default registerDoctorSlice.reducer;
-// chore: note 2023-05-30T15:15:50
