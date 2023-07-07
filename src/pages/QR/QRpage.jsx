@@ -75,4 +75,3 @@ const QRpage = () => {
 };
 
 export default QRpage;
-// chore: note 2021-11-02T01:17:23
