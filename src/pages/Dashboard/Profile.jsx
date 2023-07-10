@@ -60,4 +60,3 @@ const Profile = () => {
 }
 
 export default Profile;
-// chore: note 2023-02-06T15:43:56
