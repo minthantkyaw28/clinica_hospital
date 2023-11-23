@@ -78,7 +78,7 @@ const Dashboard = () => {
                 <Deposits
                   MainTitle={"Total Patients"}
                   Number={data.patient_count}
-                  date={`${data.patient_cost} mmk`}
+                  date={"This Month"}
                 />
               </Paper>
             </Grid>

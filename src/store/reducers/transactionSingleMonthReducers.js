@@ -9,36 +9,6 @@ const initialTransactionSingleMonthState = {
   error: false,
 };
 
-// export const transactionSingleMonthfunc = createAsyncThunk(
-//   "transactionSingleMonth",
-//   async (formData) => {
-//     // Transform form data to JSON
-//     const jsonData = JSON.stringify(formData);
-//     // const url=
-//     // Make GET request to login API and get response
-//     const response = await fetch(
-//       `https://clinica-app.onrender.com/cost_count_by_month_at_hospital/${user.user._id}`,
-//       {
-//         method: "GET",
-//         headers: {
-//           "Content-Type": "application/json",
-//           Authorization: `Bearer ${user.token}`,
-//         },
-//         body: jsonData,
-//       }
-//     );
-
-//     // If login successful, return JSON data
-//     if (response.ok) {
-//       const data = await response.json();
-//       return data;
-//     } else {
-//       // If login fails, throw an error
-//       throw new Error("Single Month Transaction failed");
-//     }
-//   }
-// );
-
 export const transactionSingleMonthfunc = createAsyncThunk(
   "transactionSingleMonth",
   async (formData, { rejectWithValue }) => {

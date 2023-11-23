@@ -17,6 +17,8 @@ const AddPatient = () => {
   const [sex, setSex] = useState("");
   const [height, setHeight] = useState("");
   const [weight, setWeight] = useState("");
+  const [allergic, setAllergic] = useState("");
+  const [history, setHistory] = useState("");
   const [password, setPassword] = useState("");
   const dispatch = useDispatch();
 
@@ -38,6 +40,8 @@ const AddPatient = () => {
       sex:sex,
       height:height,
       weight:weight,
+      allergic:allergic,
+      history:history,
       password: password,
     };
 
@@ -51,6 +55,8 @@ const AddPatient = () => {
         setSex("");
         setHeight("");
         setWeight("");
+        setAllergic("");
+        setHistory("");
         setPassword("");
         // setConfirmPassword("");
         location.reload();
@@ -131,7 +137,16 @@ const AddPatient = () => {
           </fieldset>
           <fieldset className="Fieldset">
             <label className="Label" htmlFor="username">
-              Dob
+              Sex
+            </label>
+            <input
+              className="Input"
+              id="username"
+              value={sex}
+              onChange={(e) => setSex(e.target.value)}
+            />
+            <label className="Label" htmlFor="username">
+              Birth Year
             </label>
             <input
               className="Input"
@@ -140,7 +155,7 @@ const AddPatient = () => {
               onChange={(e) => setDob(e.target.value)}
             />
           </fieldset>
-          <fieldset className="Fieldset">
+          {/* <fieldset className="Fieldset">
             <label className="Label" htmlFor="username">
               Sex
             </label>
@@ -150,20 +165,29 @@ const AddPatient = () => {
               value={sex}
               onChange={(e) => setSex(e.target.value)}
             />
+          </fieldset> */}
+
+          <fieldset className="Fieldset">
+            <label className="Label" htmlFor="username">
+              Height
+            </label>
+            <input
+              className="Input"
+              id="username"
+              value={height}
+              onChange={(e) => setHeight(e.target.value)}
+            />
+            <label className="Label" htmlFor="username">
+              Weight
+            </label>
+            <input
+              className="Input"
+              id="username"
+              value={weight}
+              onChange={(e) => setWeight(e.target.value)}
+            />
           </fieldset>
-          <div>
-            <fieldset className="Fieldset">
-              <label className="Label" htmlFor="username">
-                Height
-              </label>
-              <input
-                className="Input"
-                id="username"
-                value={height}
-                onChange={(e) => setHeight(e.target.value)}
-              />
-            </fieldset>
-            <fieldset className="Fieldset">
+          {/* <fieldset className="Fieldset">
               <label className="Label" htmlFor="username">
                 Weight
               </label>
@@ -173,8 +197,31 @@ const AddPatient = () => {
                 value={weight}
                 onChange={(e) => setWeight(e.target.value)}
               />
-            </fieldset>
-          </div>
+            </fieldset> */}
+
+          <fieldset className="Fieldset">
+            <label className="Label" htmlFor="username">
+              Allergy
+            </label>
+            <input
+              className="Input"
+              id="username"
+              value={allergic}
+              onChange={(e) => setAllergic(e.target.value)}
+            />
+          </fieldset>
+
+          <fieldset className="Fieldset">
+            <label className="Label" htmlFor="username">
+              Medical History
+            </label>
+            <input
+              className="Input"
+              id="username"
+              value={history}
+              onChange={(e) => setHistory(e.target.value)}
+            />
+          </fieldset>
 
           <fieldset className="Fieldset">
             <label className="Label" htmlFor="username">
