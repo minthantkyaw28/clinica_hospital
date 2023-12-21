@@ -64,4 +64,3 @@ const transactionSingleDaySlice = createSlice({
 export const transactionSingleDayActions = transactionSingleDaySlice.actions;
 
 export default transactionSingleDaySlice.reducer;
-// chore: note 2023-11-07T16:43:10
