@@ -71,4 +71,3 @@ const authSlice = createSlice({
 export const authActions = authSlice.actions;
 
 export default authSlice.reducer;
-// chore: note 2023-05-22T14:59:38
