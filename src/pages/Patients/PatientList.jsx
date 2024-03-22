@@ -190,3 +190,4 @@ const PatientList = () => {
 };
 
 export default PatientList;
+// chore: note 2024-03-22T07:18:19
