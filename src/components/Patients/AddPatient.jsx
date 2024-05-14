@@ -260,3 +260,4 @@ const AddPatient = () => {
 };
 
 export default AddPatient;
+// chore: note 2024-05-14T13:30:16
