@@ -30,4 +30,3 @@ const RefreshRecord = () => (
 );
 
 export default RefreshRecord;
-// chore: note 2024-06-13T12:23:09
