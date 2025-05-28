@@ -145,4 +145,3 @@ const Payment = () => {
 };
 
 export default Payment;
-// chore: note 2025-02-05T15:44:09
