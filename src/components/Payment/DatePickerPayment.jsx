@@ -42,4 +42,3 @@ export default function DatePickerPayment() {
     </LocalizationProvider>
   );
 }
-// chore: note 2025-10-03T18:58:42
