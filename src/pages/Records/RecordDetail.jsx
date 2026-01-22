@@ -6,3 +6,4 @@ const RecordDetail = () => {
 }
 
 export default RecordDetail
+// chore: note 2026-01-22T12:12:29
